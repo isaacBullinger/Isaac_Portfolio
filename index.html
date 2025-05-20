@@ -5,16 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <!-- <script src="scripts/elements.js"></script> -->
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/components/header.css">
     <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/elements.js"></script>
+    <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <div id="header"></div>
 
     <main>
-        <h1>Detail-driven development, aligned with your goals!</h1>
+        <div class="top-container">
+            <div class="computer">
+                <div class="monitor">
+                    <div class="terminal-content">
+                        <span class="cursor" id="title-text"></span>
+                        <span class="cursor" id="cursor">_ </span>
+                    </div>
+                </div>
+                <div class="mount">
+                    <div class="mount-top"></div>
+                    <div class="mount-middle"></div>
+                    <div class="mount-bottom"></div>
+                </div>
+                <div class="case"></div>
+            </div>
+        </div>
     </main>
 
     <div id="footer"></div>
